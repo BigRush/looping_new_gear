@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sen=$1
+echo $sen | awk '{ for (i=NF; i>1; i--) printf("%s ",$i); print $1; }'

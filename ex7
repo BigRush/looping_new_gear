@@ -1,0 +1,18 @@
+#!/bin/bash
+
+read -p "Please enter a transportation vehicle (car, bus, boat): " vehicle
+
+if [ $vehicle = boat ] 
+then
+	echo "Boat costs much money, can approximately last for 10 years"
+
+elif [ $vehicle = car ]
+then
+	echo "Car costs 270000 (for a new ford mustnag), can last forever if left in the garage"
+
+elif [ $vehicle = bus ]
+then
+	echo "Bus sucks, don't buy a bus"
+else
+	echo "You didn't enter a valid vehicle"
+fi

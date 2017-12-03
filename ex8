@@ -1,0 +1,26 @@
+#!/bin/bash 
+
+d=$(date +%A)
+
+if [ $d = Sunday ]
+then
+	echo "$d - yay $d"
+elif [ $d = Monday ]
+then
+	echo "$d - Yay $d"
+elif [ $d = Tuesday ]
+then
+	echo "$d - okday $d"
+elif [ $d = Wednesday ]
+then
+	echo "$d - great day"
+elif [ $d = Thursday  
+then
+	echo "$d - beginning of weekend"
+elif [ $d = Friday ]
+then
+	echo "$d - weekend"
+elif [ $d = Saturday ]
+then
+echo "$d - EOW"
+fi
